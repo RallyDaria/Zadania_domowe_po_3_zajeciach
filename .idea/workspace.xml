@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c458fe35-eb30-4bfc-aeba-a9966559ea0c" name="Changes" comment="Gotowa Gra">
+    <list default="true" id="c458fe35-eb30-4bfc-aeba-a9966559ea0c" name="Changes" comment="Gotowa">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667836596851</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Gotowa">
+      <created>1667839157641</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667839157641</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,6 +127,7 @@
     <MESSAGE value="aaaaaa" />
     <MESSAGE value="Nowy Hero" />
     <MESSAGE value="Nowy Main" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nowy Main" />
+    <MESSAGE value="Gotowa" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gotowa" />
   </component>
 </project>

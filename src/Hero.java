@@ -2,14 +2,14 @@ public class Hero {
        private String name;
        private  String klass;
        private int punktySily;
-       private int punktyMana;
+       private int punktyMany;
        private boolean nowaPostac;
 
-    public Hero(String name,String klass, int punktySily, int punktyMana,boolean nowaPostac  ){
+    public Hero(String name,String klass, int punktySily, int punktyMany,boolean nowaPostac  ){
         this.name=name;
         this.klass=klass;
         this.punktySily=punktySily;
-        this.punktyMana=punktyMana;
+        this.punktyMany=punktyMany;
         this.nowaPostac=nowaPostac;
     }
     Hero(String imie,String klass,boolean nowaPostac){
@@ -37,16 +37,20 @@ public class Hero {
         this.punktySily=punktySily;
     }
     public int showPunktyMana(){
-        return punktyMana;
+        return punktyMany;
     }
     public void changePunktyMana(){
-        this.punktyMana=punktyMana;
+        this.punktyMany=punktyMany;
     }
     public boolean showNowaPostac(){
         return nowaPostac;
     }
     public void changeNowaPostac(){
         this.nowaPostac=nowaPostac;
+    }
+    public double moc_postaci(){
+        double moc=(punktySily*punktyMany)/2.0;
+        return moc
     }
 }
 

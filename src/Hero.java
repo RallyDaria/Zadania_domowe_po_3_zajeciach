@@ -50,7 +50,7 @@ public class Hero {
     }
     public double moc_postaci(){
         double moc=(punktySily*punktyMany)/2.0;
-        return moc
+        return moc;
     }
 }
 
